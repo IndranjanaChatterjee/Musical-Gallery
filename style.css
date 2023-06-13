@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    flex-direction: column;
+    background-image: url("bb.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+img{
+    width:30%;
+    height: 20%;
+}
+.music{
+    
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin:0.5rem;
+    height: 300px;
+    width: 300px;
+    font-size: 6rem;
+    color:rgb(230, 66, 252);
+    text-shadow:  2px 2px 18px rgb(240, 215, 232);
+    border: none;
+    border-radius: 2rem;
+    box-shadow: 5px 10px 50px white;
+    transition: all 0.8s ease-in-out;
+}
+h1{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: clamp(2rem,4rem,6rem);
+    text-shadow:  10px 10px 8px rgb(204, 19, 158);
+    position: relative;
+    bottom:clamp(0.5rem,1rem,4rem);
+    text-align: center;
+}
+.titanic{
+    background-image: url("t.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.container{
+    
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.kalank{
+    background-image: url("k.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.harry{
+    background-image: url("h.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.zero{
+    background-image: url("z.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.om{
+    background-image: url("o.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.music:hover{
+    transform: scale(1.2);
+    cursor:grab;
+}
+h2{
+
+    color:rgb(182, 232, 247);
+    font-size:clamp(1rem,2rem,3rem);
+    text-align: center;
+}
+@media (max-width:460px)
+{
+    h1{
+        font-size: clamp(1rem,2.5rem,6rem);
+        text-align: center;
+        bottom:clamp(0.3rem,0.5rem,1rem);
+
+    }
+    h2{
+        font-size:clamp(1rem,1.5rem,3rem) ;
+    }
+    .music{
+        width:80%;
+        font-size: 9vh;
+    }
+}
