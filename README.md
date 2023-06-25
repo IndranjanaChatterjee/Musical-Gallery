@@ -15,3 +15,7 @@ Click on the pictures to see and hear wonders :) ,also you may click the keys vi
 2. CSS Click ->[LINK](https://github.com/IndranjanaChatterjee/Musical-Gallery/blob/main/style.css)
 3. JS Click ->[LINK](https://github.com/IndranjanaChatterjee/Musical-Gallery/blob/main/script.js)
 
+## Link to my project
+
+---->[Link](https://indranjanachatterjee.github.io/Musical-Gallery/)
+
